@@ -22,12 +22,12 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <style>
-    /* Prevent header name from breaking into two lines */
+    /* 1. Prevent header name wrapping and adjust menu spacing */
     #header h1 {
       white-space: nowrap;
     }
     @media (min-width: 992px) {
-      /* Increased spacing and slightly smaller font to de-congest the nav bar */
+      /* Standardizing spacings to fit on one single line */
       .nav-menu li + li {
         margin-left: 24px !important; 
       }
@@ -39,6 +39,21 @@
         font-size: 24px !important;
       }
     }
+    
+    /* 2. Increase Font Sizes and Section Gaps */
+    body, p, li {
+      font-size: 15px !important; /* Increased from default */
+      line-height: 1.8 !important; /* Better readability */
+    }
+    section {
+      padding: 80px 0 !important; /* More breathing room between sections */
+    }
+    .section-title {
+      margin-bottom: 50px !important; /* Larger gap under section headers */
+    }
+    .icon-box, .resume-item {
+      padding-top: 20px; /* Slight extra padding inside boxes */
+    }
   </style>
 </head>
 
@@ -48,7 +63,7 @@
     <div class="container">
 
       <h1><a href="index.html">Akshay Aravind</a></h1>
-      <h2 style="color:#fff">I'm a <span class="typing" style="color:#12D640"></span></h2>
+      <h2 style="color:#fff">I'm <span class="typing" style="color:#12D640"></span></h2>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
@@ -283,7 +298,7 @@
             <div style="background:rgba(245,158,11,0.07);padding:30px 20px;text-align:center;border:1px solid rgba(245,158,11,0.2);height:220px;display:flex;align-items:center;justify-content:center;">
               <div>
                 <i class="ri-medal-line" style="font-size:36px;color:#f59e0b;display:block;margin-bottom:10px;"></i>
-                <p style="color:#ccc;font-size:13px;margin:0;">SICASA Ernakulam honoured as Best Branch – Large Category by ICAI. Contributed as Joint Secretary.</p>
+                <p style="color:#ccc;margin:0;">SICASA Ernakulam honoured as Best Branch – Large Category by ICAI. Contributed as Joint Secretary.</p>
               </div>
             </div>
           </div>
@@ -295,7 +310,7 @@
             <div style="background:rgba(18,214,64,0.07);padding:30px 20px;text-align:center;border:1px solid rgba(18,214,64,0.2);height:220px;display:flex;align-items:center;justify-content:center;">
               <div>
                 <i class="ri-award-line" style="font-size:36px;color:#12d640;display:block;margin-bottom:10px;"></i>
-                <p style="color:#ccc;font-size:13px;margin:0;">Organised the CA Students' National Conference, managing logistics, speakers, and participant experience.</p>
+                <p style="color:#ccc;margin:0;">Organised the CA Students' National Conference, managing logistics, speakers, and participant experience.</p>
               </div>
             </div>
           </div>
@@ -307,7 +322,7 @@
             <div style="background:rgba(18,214,64,0.07);padding:30px 20px;text-align:center;border:1px solid rgba(18,214,64,0.2);height:220px;display:flex;align-items:center;justify-content:center;">
               <div>
                 <i class="ri-music-2-line" style="font-size:36px;color:#12d640;display:block;margin-bottom:10px;"></i>
-                <p style="color:#ccc;font-size:13px;margin:0;">Led the CA Students' Cultural Fest — curating competitions, performances, and networking opportunities.</p>
+                <p style="color:#ccc;margin:0;">Led the CA Students' Cultural Fest — curating competitions, performances, and networking opportunities.</p>
               </div>
             </div>
           </div>
@@ -319,7 +334,7 @@
             <div style="background:rgba(18,214,64,0.07);padding:30px 20px;text-align:center;border:1px solid rgba(18,214,64,0.2);height:220px;display:flex;align-items:center;justify-content:center;">
               <div>
                 <i class="ri-trophy-line" style="font-size:36px;color:#12d640;display:block;margin-bottom:10px;"></i>
-                <p style="color:#ccc;font-size:13px;margin:0;">Designed and managed the IPL Mock Auction backend — rulebooks, bidding dashboards, and live event moderation.</p>
+                <p style="color:#ccc;margin:0;">Designed and managed the IPL Mock Auction backend — rulebooks, bidding dashboards, and live event moderation.</p>
               </div>
             </div>
           </div>
@@ -331,7 +346,7 @@
             <div style="background:rgba(245,158,11,0.07);padding:30px 20px;text-align:center;border:1px solid rgba(245,158,11,0.2);height:220px;display:flex;align-items:center;justify-content:center;">
               <div>
                 <i class="ri-file-text-line" style="font-size:36px;color:#f59e0b;display:block;margin-bottom:10px;"></i>
-                <p style="color:#ccc;font-size:13px;margin:0;">1st Position – National Talent Search Essay Writing Competition, Branch Level. Ernakulam Branch, ICAI · Jun 2024.</p>
+                <p style="color:#ccc;margin:0;">1st Position – National Talent Search Essay Writing Competition, Branch Level. Ernakulam Branch, ICAI · Jun 2024.</p>
               </div>
             </div>
           </div>
@@ -343,7 +358,7 @@
             <div style="background:rgba(85,120,255,0.07);padding:30px 20px;text-align:center;border:1px solid rgba(85,120,255,0.2);height:220px;display:flex;align-items:center;justify-content:center;">
               <div>
                 <i class="ri-code-s-slash-line" style="font-size:36px;color:#5578ff;display:block;margin-bottom:10px;"></i>
-                <p style="color:#ccc;font-size:13px;margin:0;">Built an in-house utility automating audit plan creation, working file generation, and folder structuring.</p>
+                <p style="color:#ccc;margin:0;">Built an in-house utility automating audit plan creation, working file generation, and folder structuring.</p>
               </div>
             </div>
           </div>
@@ -355,7 +370,7 @@
             <div style="background:rgba(85,120,255,0.07);padding:30px 20px;text-align:center;border:1px solid rgba(85,120,255,0.2);height:220px;display:flex;align-items:center;justify-content:center;">
               <div>
                 <i class="ri-bar-chart-grouped-line" style="font-size:36px;color:#5578ff;display:block;margin-bottom:10px;"></i>
-                <p style="color:#ccc;font-size:13px;margin:0;">Created interactive Power BI dashboards for financial data visualisation, enabling faster insights.</p>
+                <p style="color:#ccc;margin:0;">Created interactive Power BI dashboards for financial data visualisation, enabling faster insights.</p>
               </div>
             </div>
           </div>
@@ -367,7 +382,7 @@
             <div style="background:rgba(232,3,104,0.07);padding:30px 20px;text-align:center;border:1px solid rgba(232,3,104,0.2);height:220px;display:flex;align-items:center;justify-content:center;">
               <div>
                 <i class="ri-question-answer-line" style="font-size:36px;color:#e80368;display:block;margin-bottom:10px;"></i>
-                <p style="color:#ccc;font-size:13px;margin:0;">Active participant in CA-level quiz competitions covering taxation, corporate law, auditing, and general finance.</p>
+                <p style="color:#ccc;margin:0;">Active participant in CA-level quiz competitions covering taxation, corporate law, auditing, and general finance.</p>
               </div>
             </div>
           </div>
@@ -379,7 +394,7 @@
             <div style="background:rgba(18,214,64,0.07);padding:30px 20px;text-align:center;border:1px solid rgba(18,214,64,0.2);height:220px;display:flex;align-items:center;justify-content:center;">
               <div>
                 <i class="ri-run-line" style="font-size:36px;color:#12d640;display:block;margin-bottom:10px;"></i>
-                <p style="color:#ccc;font-size:13px;margin:0;">Planned and managed multiple sports events, fostering healthy competition and community participation.</p>
+                <p style="color:#ccc;margin:0;">Planned and managed multiple sports events, fostering healthy competition and community participation.</p>
               </div>
             </div>
           </div>
@@ -398,10 +413,10 @@
 
           <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="background: #171717; border: 1px solid #333;">
             <h4 style="text-align:left;color:#12d640">Finance &amp; Compliance</h4>
-            <ul style="text-align:left; color:#ccc; font-size:14px; margin-top:15px; padding-left:20px;">
+            <ul style="text-align:left; color:#ccc; margin-top:15px; padding-left:20px;">
               <li>Managed and executed Statutory audits and Tax audits for firms and companies, ensuring compliance with applicable laws and standards on auditing.</li>
               <li>Handled Income Tax returns, GST returns, and TDS filings for individuals, firms, and corporate clients.</li>
-              <li>Conducted thorough stock audits.</li>
+              <li>Conducted stock audits of different companies.</li>
               <li>Conducted GST audits across multiple organisational structures.</li>
               <li>Part of the team that conducted internal audit for manufacturers with 1000+ Cr turnover.</li>
               <li>Experienced in ROC filings and corporate compliance workflows.</li>
@@ -415,14 +430,14 @@
               <img src="https://img.icons8.com/color/48/000000/ms-excel.png" alt="Excel / VBA" height="40" width="40" style="margin-right:16px;">
               <img src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg" alt="Python" height="40" width="110" style="margin-right:16px;">
             </p>
-            <p style="text-align:left;color:#ccc;font-size:14px;">
+            <p style="text-align:left;color:#ccc;">
               VBA (Excel) &nbsp;&middot;&nbsp; Power Query &nbsp;&middot;&nbsp; Power BI &nbsp;&middot;&nbsp; Python &nbsp;&middot;&nbsp; AI Tools &nbsp;&middot;&nbsp; Advanced Excel &nbsp;&middot;&nbsp; Data Visualisation &nbsp;&middot;&nbsp; Process Automation
             </p>
           </div>
 
           <div class="col-md-12 mt-4 icon-box" data-aos="fade-up" data-aos-delay="100" style="background: #171717; border: 1px solid #333;">
             <h4 style="text-align:left;color:#12d640">Leadership &amp; Soft Skills</h4>
-            <p style="text-align:left;color:#ccc;font-size:14px; margin-top:15px;">
+            <p style="text-align:left;color:#ccc; margin-top:15px;">
               Event Management &nbsp;&middot;&nbsp; Team Coordination &nbsp;&middot;&nbsp; Stakeholder Management &nbsp;&middot;&nbsp; Problem Solving &nbsp;&middot;&nbsp; Communication &nbsp;&middot;&nbsp; Mentoring &nbsp;&middot;&nbsp; Editorial &amp; Content
             </p>
           </div>
@@ -529,7 +544,7 @@
 
   <script type="text/javascript">
     var typed = new Typed('.typing', {
-      strings: ["CA Student", "Articled Assistant", "AI Enthusiast", "Event Organiser"],
+      strings: ["a CA Student", "an Articled Assistant", "an AI Enthusiast", "an Event Organiser"],
       loop: true,
       typeSpeed: 65,
       backSpeed: 65
