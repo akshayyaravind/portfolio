@@ -1,77 +1,26 @@
-# Personal Portfolio 🔥
-> https://rajaprerak.github.io/
+# Akshay Aravind - Personal Portfolio 🔥
+> https://akshayyaravind.github.io/portfolio/ *(Update 'portfolio' to your exact repository name)*
 
-:star: Star me on GitHub — it helps!
-
-[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/rajaprerak/rajaprerak.github.io/commits/master)
-[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://rajaprerak.github.io/)
-[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/rajaprerak/)
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-### Website Preview
-#### Home Page
-<img src="website_images/HomePage.gif" width="900">
-
-
-#### About Page
-<img src="website_images/AboutPage.png" width="900">
-
-
-#### Projects Page
-<img src="website_images/ProjectPage.png" width="900">
-  
-
-
-:star: Star me on GitHub — it helps!
+## Overview 🚀
+A clean, minimalistic, and professional dark-mode portfolio designed to showcase my journey as a Chartered Accountancy (CA) student, Articled Assistant, and event organizer. It highlights my professional experience in auditing and taxation, leadership roles in national conferences like AKSHARAM, and my technical proficiency in data automation.
 
 ## Features 📋
-⚡️ Fully Responsive\
-⚡️ Valid HTML5 & CSS3\
-⚡️ Typing animation using `Typed.js`\
-⚡️ Easy to modify
-
-## Installation & Deployment 📦
-- Clone the repository and modify the content of <b>index.html</b> 
-- Add or remove images from `assets/img/` directory as per your requirement.
-- Update the info of `projects` folder according to your need
-- Use [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create your own website.
-- To deploy your website, first you need to create github repository with name `<your-github-username>.github.io` and push the generated code to the `master` branch.
+⚡️ Sleek, Minimalistic Dark-Mode UI
+⚡️ Fully Responsive Design (Mobile & Desktop)
+⚡️ Typing animation using `Typed.js`
+⚡️ Smooth Scroll & Reveal Animations
 
 ## Sections 📚
-✔️ About\
-✔️ Interests\
-✔️ Education\
-✔️ Online Certification\
-✔️ Experience\
-✔️ Projects \
-✔️ Skills \
-✔️ Resume\
-✔️ Contact Info
+✔️ **About:** Background, location, and professional goals.
+✔️ **Education:** CA journey and academic achievements.
+✔️ **Professional Experience:** Articleship duties and SICASA leadership roles.
+✔️ **Events & Projects:** IMPACT X IPL Mock Auction, AKSHARAM Conference, Taj Khazana Audits.
+✔️ **Tech & Software Skills:** Power BI, Python, Excel VBA.
+✔️ **Contact Info:** Direct links to LinkedIn, GitHub, and Email.
 
+## Installation & Deployment 📦
+This portfolio is designed to be hosted as a **GitHub Project Page**.
 
-
-## Tools Used 🛠️
-* <b>GitHub Pages</b> - To host my static website (HTML, CSS, JS).
-
-## Contributing 💡
-#### Step 1
-
-- **Option 1**
-    - 🍴 Fork this repo!
-
-- **Option 2**
-    - 👯 Clone this repo to your local machine.
-
-
-#### Step 2
-
-- **Build your code** 🔨🔨🔨
-
-#### Step 3
-
-- 🔃 Create a new pull request.
-
-## License
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+1. Clone this repository to your local machine:
+   ```bash
+   git clone [https://github.com/akshayyaravind/your-repo-name.git](https://github.com/akshayyaravind/your-repo-name.git)
